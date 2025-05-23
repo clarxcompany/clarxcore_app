@@ -39,24 +39,32 @@ It’s designed for scalability and modularity—serving as the foundation for f
 
 ### Branded Splash & Routing  
 3 s animated splash, then auto-redirect based on login status.  
-<img src="docs/screenshots/splash.png" alt="Splash Screen" width="300"/>
+<div align="center">
+  <img src="docs/screenshots/splash.png" alt="Splash Screen" width="200"/>
+</div>
 
 ### Secure Authentication  
 Email/password + Google/Facebook SSO with choice screens.  
-<img src="docs/screenshots/auth_choice1.png" alt="Auth Choice 1" width="300"/>  
-<img src="docs/screenshots/auth_choice2.png" alt="Auth Choice 2" width="300"/>
+<div align="center">
+  <img src="docs/screenshots/auth_choice1.png" alt="Auth Choice 1" width="150" style="margin:0 10px;"/>
+  <img src="docs/screenshots/auth_choice2.png" alt="Auth Choice 2" width="150" style="margin:0 10px;"/>
+</div>
 
 ### Streamlined Registration  
 Validated multi-form flow with progress indicators.  
-<img src="docs/screenshots/register_step1.png" alt="Register Step 1" width="300"/>  
-<img src="docs/screenshots/register_step2.png" alt="Register Step 2" width="300"/>
+<div align="center">
+  <img src="docs/screenshots/register_step1.png" alt="Register Step 1" width="150" style="margin:0 10px;"/>
+  <img src="docs/screenshots/register_step2.png" alt="Register Step 2" width="150" style="margin:0 10px;"/>
+</div>
 
 ### Real-Time Dashboard  
 Live overview of active missions & history.  
-<img src="docs/screenshots/login.png" alt="Login Page" width="300"/>
+<div align="center">
+  <img src="docs/screenshots/login.png" alt="Login Page" width="200"/>
+</div>
 
 ### Theming & Accessibility  
-Light/dark modes, responsive layout, custom color palette in `main.dart`.
+Light/dark modes, responsive layout, custom color palette in `main.dart`.  
 
 ---
 
