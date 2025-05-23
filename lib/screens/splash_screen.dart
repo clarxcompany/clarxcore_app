@@ -1,3 +1,5 @@
+// SplashScreen: ClarxCore app splash screen implementation
+
 // lib/screens/splash_screen.dart
 
 import 'dart:async';
