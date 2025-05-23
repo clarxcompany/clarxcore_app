@@ -37,25 +37,37 @@ It’s designed for scalability and modularity—serving as the foundation for f
 
 ## 🔑 Key Features
 
-- **Branded Splash & Routing**: 3 s splash screen, auto-redirect based on login status  
-- **Secure Authentication**: Firebase email/password + Google/Facebook SSO  
-- **Step-by-Step Registration**: Validated multi-form flow with progress indicators  
-- **Profile & Notifications**: Photo upload, language/timezone selection, toggle reminders  
-- **Sports & Task Preferences**: Select activities, set weekly goals, track daily missions  
-- **Real-Time Dashboard**: Live overview of active missions & history  
-- **Compliance & Docs**: In-app **Terms of Use** & **Privacy Policy** from Markdown  
-- **Theming & Accessibility**: Light/dark modes, custom color palette, responsive layout  
+### Branded Splash & Routing  
+3 s animated splash, then auto-redirect based on login status.  
+<img src="docs/screenshots/splash.png" alt="Splash Screen" width="300"/>
+
+### Secure Authentication  
+Email/password + Google/Facebook SSO with choice screens.  
+<img src="docs/screenshots/auth_choice1.png" alt="Auth Choice 1" width="300"/>  
+<img src="docs/screenshots/auth_choice2.png" alt="Auth Choice 2" width="300"/>
+
+### Streamlined Registration  
+Validated multi-form flow with progress indicators.  
+<img src="docs/screenshots/register_step1.png" alt="Register Step 1" width="300"/>  
+<img src="docs/screenshots/register_step2.png" alt="Register Step 2" width="300"/>
+
+### Real-Time Dashboard  
+Live overview of active missions & history.  
+<img src="docs/screenshots/login.png" alt="Login Page" width="300"/>
+
+### Theming & Accessibility  
+Light/dark modes, responsive layout, custom color palette in `main.dart`.
 
 ---
 
 ## 📸 Screenshots
 
 <div align="center">
-  <img src="docs/screenshots/splash.png"   alt="Splash Screen"  width="180" />  
-  <img src="docs/screenshots/login.png"    alt="Login Page"     width="180" />  
-  <img src="docs/screenshots/register.png" alt="Register Flow"  width="180" />  
-  <img src="docs/screenshots/home.png"     alt="Home Dashboard" width="180" />
+  <img src="docs/screenshots/auth_choice3.png" alt="Auth Choice 3" width="180" />  
+  <img src="docs/screenshots/auth_choice4.png" alt="Auth Choice 4" width="180" />  
+  <img src="docs/screenshots/auth_choice5.png" alt="Auth Choice 5" width="180" />  
 </div>
+
 
 ---
 
