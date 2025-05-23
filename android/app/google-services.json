@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "831653477651",
+    "project_id": "clarxcore-app",
+    "storage_bucket": "clarxcore-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:831653477651:android:c785994bc7c3ec1ba16ee6",
+        "android_client_info": {
+          "package_name": "com.clarxc.clarxcore_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkOjorOzpzjhSE409SBv3s_SnbYFMlE-g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

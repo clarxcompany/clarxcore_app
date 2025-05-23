@@ -1,0 +1,56 @@
+name: clarxcore_app
+description: "clarxcore – Real Missions. Real Progress"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.7.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^2.20.0
+  firebase_auth: ^4.6.0
+  cloud_firestore: ^4.5.0
+
+  # Image picker for profile photo
+  image_picker: ^0.8.7+5
+
+  # UI & utilities
+  google_fonts: ^6.1.0
+  intl: ^0.19.0
+  cupertino_icons: ^1.0.8
+  share_plus: ^11.0.0
+  font_awesome_flutter: ^10.4.0
+  flutter_markdown: ^0.6.10
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+dependency_overrides:
+  win32: 3.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/header_bg.png
+    - assets/icons/basketball.png
+    - assets/icons/person.png
+    - assets/active_header_bg.png
+    - assets/app_logo.png
+    - assets/splash_bg.png
+    - assets/auth_choice_page/onboard1.png
+    - assets/auth_choice_page/onboard2.png
+    - assets/auth_choice_page/onboard3.png
+    - assets/auth_choice_page/onboard4.png
+    - assets/auth_choice_page/onboard5.png
+    - assets/login_page/login_header.png
+    - assets/register/step1_header.png
+    - assets/register/step2_header.png
+    - assets/legal/terms_of_use.md
+    - assets/legal/privacy_policy.md

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+      LaunchTheme (API 31+):
+      — Tema içinden android:style/Theme.SplashScreen ve
+        postSplashScreenTheme referanslarını kaldırdık.
+      — Sadece klasik windowBackground ile launch_background drawable’ınızı kullanacak.
+    -->
+    <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@drawable/launch_background</item>
+    </style>
+
+</resources>
