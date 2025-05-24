@@ -1,21 +1,24 @@
 <!-- .github/ISSUE_TEMPLATE/feature_request.md -->
 ---
-name: Feature Request  
-about: Yeni bir özellik öner  
-title: "[FEATURE] "  
-labels: enhancement  
+name: ✨ Feature Request
+about: Propose a new feature or enhancement
+title: "[FEATURE] Short summary"
+labels: enhancement
 assignees: ''
 
 ---
 
-**Sorun Tanımı**  
-Bu özellik isteği hangi problemi çözüyor? Kısaca açıklayın.
+## ✍️ Summary
+Describe the feature you’d like and the problem it solves.
 
-**Önerilen Çözüm**  
-Hangi işlevselliğin eklenmesini istediğinizi detaylandırın.
+## 💡 Proposed Solution
+Explain how the feature should work and outline the implementation.
 
-**Alternatifler**  
-Düşündüğünüz diğer çözümler veya geçici yöntemler varsa açıklayın.
+## 🔀 Alternatives Considered
+Describe any alternative approaches you considered and why you chose this one.
 
-**Ek Bağlam**  
-Özellikle faydalı olabilecek ekran görüntüleri, mockup’lar veya ek detaylar.
+## 🎯 Use Cases & User Stories
+Provide user stories or scenarios where this feature adds value.
+
+## 📎 Additional Context
+Include mockups, links, data, or other references to support your request.

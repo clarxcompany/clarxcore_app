@@ -1,32 +1,36 @@
 <!-- .github/ISSUE_TEMPLATE/bug_report.md -->
 ---
-name: Bug Report  
-about: Bir hata bildir  
-title: "[BUG] "  
-labels: bug  
+name: 🐛 Bug Report
+about: Create a report to help us find and fix bugs
+title: "[BUG] Short summary"
+labels: bug
 assignees: ''
 
 ---
 
-**Açıklama**  
-Kısaca hatanın ne olduğunu anlatın.
+## 🐞 Description
+Provide a clear and concise description of the bug.
 
-**Yeniden Üretme Adımları**
-1. '...' sayfasına gidin
-2. '...' butonuna tıklayın
-3. '...' ekranı görene kadar aşağı kaydırın
-4. Hatanın meydana geldiğini gözlemleyin
+## 🔄 Steps to Reproduce
+1. Go to `…`
+2. Click on `…`
+3. Scroll down to `…`
+4. Observe the issue
 
-**Beklenen Davranış**  
-Hatanın yerine ne olmasını beklediğinizi açıklayın.
+## 🎯 Expected Behavior
+What you expected to happen.
 
-**Ekran Görüntüleri**  
-Varsa hatayı gösteren ekran görüntülerini ekleyin.
+## 🖥️ Actual Behavior
+What actually happened.
 
-**Cihaz (lütfen aşağıdakileri tamamlayın):**
-- Cihaz: [örn. iPhone 12, Pixel 4]
-- İşletim Sistemi: [örn. iOS 14.4, Android 11]
-- Uygulama Sürümü: [örn. 1.0.0]
+## 📷 Screenshots & Logs
+If applicable, add screenshots, error messages, or logs to help explain the problem.
 
-**Ek Bilgi**  
-Bu hata ile ilgili ek bir bilgi veya bağlam varsa buraya ekleyin.
+## 🛠️ Environment
+- **Device:** e.g. iPhone 12, Pixel 4
+- **OS:** e.g. iOS 14.4, Android 11
+- **App Version:** e.g. 1.0.0
+- **Flutter & Dart Version:** e.g. Flutter 3.22.0, Dart 3.x
+
+## 🔗 Additional Context
+Add any other context about the problem here, such as related issues or temporary workarounds.
