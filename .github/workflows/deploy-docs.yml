@@ -14,7 +14,7 @@ jobs:
           node-version: '16'
       - run: |
           cd docs
-          npm ci
+          npm install
           npm run build
       - uses: peaceiris/actions-gh-pages@v3
         with:
