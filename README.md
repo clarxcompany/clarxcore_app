@@ -1,81 +1,112 @@
 # ClarxCore App
 
-[![Flutter](https://img.shields.io/badge/Flutter-3.7.0-blue.svg)](https://flutter.dev/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Build Status](https://img.shields.io/github/actions/workflow/status/clarxcompany/clarxcore_app/flutter.yml?branch=main)](https://github.com/clarxcompany/clarxcore_app/actions)
+[![Flutter](https://img.shields.io/badge/Flutter-3.22.0-blue.svg)](https://flutter.dev)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Build Status](https://github.com/clarxcompany/clarxcore_app/actions/workflows/flutter-ci.yml/badge.svg)](https://github.com/clarxcompany/clarxcore_app/actions/workflows/flutter-ci.yml)
 
 ---
 
 ## 📖 Table of Contents
 
-- [🚀 Overview](#🚀-overview)  
-- [🔑 Key Features](#🔑-key-features)  
-- [📸 Screenshots](#📸-screenshots)  
-- [🛠️ Getting Started](#🛠️-getting-started)  
-  - [Prerequisites](#prerequisites)  
-  - [Installation & Running](#installation--running)  
-- [📂 Project Structure](#📂-project-structure)  
-- [⚙️ Configuration](#⚙️-configuration)  
-- [🌿 Branching & Versioning](#🌿-branching--versioning)  
-- [🤝 Contributing](#🤝-contributing)  
-- [📜 License](#📜-license)  
-- [📬 Contact](#📬-contact)  
-- [💾 Next Steps](#💾-next-steps)  
+- [🚀 Overview](#-overview)
+- [🔑 Key Features](#-key-features)
+- [📸 Screenshots](#-screenshots)
+- [🛠️ Getting Started](#️-getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation & Running](#installation--running)
+- [📂 Project Structure](#-project-structure)
+- [⚙️ Configuration](#️-configuration)
+- [🌿 Branching & Versioning](#️-branching--versioning)
+- [🤝 Contributing](#-contributing)
+- [📜 License](#-license)
+- [📬 Contact](#-contact)
+- [💾 Next Steps](#-next-steps)
 
 ---
 
 ## 🚀 Overview
 
-**ClarxCore** is a cross-platform Flutter application for managing real-world missions and tracking personal progress. Built with Firebase for authentication and real-time data, it offers:
+**ClarxCore** is a cross-platform Flutter app that gamifies your daily routines and fitness goals into “missions.”  
+Built with Firebase for secure auth and real-time data, it offers:
 
-- Intuitive multi-step registration  
-- Custom splash & onboarding flows  
-- Daily task reminders & AI-powered suggestions  
-- Community invites & weekly progress reports  
+- Intuitive multi-step registration
+- Custom splash & onboarding flows
+- Daily task reminders & AI-powered suggestions
+- Community invites & weekly progress reports
 
-It’s designed for scalability and modularity—serving as the foundation for future ClarxCompany projects like **clarxAI**, **clarxcoin**, and more.
+> **ClarxCore** is modular and scalable—it's the foundation for ClarxCompany projects like **clarxAI**, **clarxcoin**, and more.
 
 ---
 
 ## 🔑 Key Features
 
-### Branded Splash & Routing  
-3 s animated splash, then auto-redirect based on login status.  
+### 🎬 Branded Splash & Auto-Routing
+
+3s animated splash → smart redirect based on login state.
+
 <div align="center">
   <img src="docs/screenshots/splash.png" alt="Splash Screen" width="200"/>
 </div>
 
-### Secure Authentication  
-Email/password + Google/Facebook SSO with choice screens.  
+---
+
+### 🔒 Secure Authentication
+
+Email/password + Google/Facebook SSO, with user-friendly choice screens.
+
 <div align="center">
   <img src="docs/screenshots/auth_choice1.png" alt="Auth Choice 1" width="150" style="margin:0 10px;"/>
   <img src="docs/screenshots/auth_choice2.png" alt="Auth Choice 2" width="150" style="margin:0 10px;"/>
 </div>
 
-### Streamlined Registration  
-Validated multi-form flow with progress indicators.  
+---
+
+### 📝 Streamlined Registration
+
+Multi-step forms, validation, and progress bar.
+
 <div align="center">
   <img src="docs/screenshots/register_step1.png" alt="Register Step 1" width="150" style="margin:0 10px;"/>
   <img src="docs/screenshots/register_step2.png" alt="Register Step 2" width="150" style="margin:0 10px;"/>
 </div>
 
-### Real-Time Dashboard  
-Live overview of active missions & history.  
+---
+
+### ⏰ Task Reminders & AI Suggestions
+
+Schedule daily missions, get smart reminders and actionable tips.
+
+---
+
+### 🌐 Community & Reports
+
+Invite friends, share progress, and receive weekly summaries.
+
+---
+
+### 📊 Real-Time Dashboard
+
+Live overview of active missions & history.
+
 <div align="center">
-  <img src="docs/screenshots/login.png" alt="Login Page" width="200"/>
+  <img src="docs/screenshots/dashboard.png" alt="Dashboard" width="200"/>
 </div>
 
-### Theming & Accessibility  
-Light/dark modes, responsive layout, custom color palette in `main.dart`.  
+---
+
+### 🎨 Theming & Accessibility
+
+Light/dark modes, responsive layout, and high-contrast support.
 
 ---
 
 ## 📸 Screenshots
 
 <div align="center">
-  <img src="docs/screenshots/auth_choice3.png" alt="Auth Choice 3" width="180" />  
-  <img src="docs/screenshots/auth_choice4.png" alt="Auth Choice 4" width="180" />  
-  <img src="docs/screenshots/auth_choice5.png" alt="Auth Choice 5" width="180" />  
+  <img src="docs/screenshots/auth_choice3.png" alt="Auth Choice 3" width="180"/>
+  <img src="docs/screenshots/auth_choice4.png" alt="Auth Choice 4" width="180"/>
+  <img src="docs/screenshots/auth_choice5.png" alt="Auth Choice 5" width="180"/>
 </div>
-
 
 ---
 
@@ -83,9 +114,9 @@ Light/dark modes, responsive layout, custom color palette in `main.dart`.
 
 ### Prerequisites
 
-- [Flutter SDK ≥ 3.7.0](https://flutter.dev/docs/get-started/install)  
-- Android Studio or Xcode (for emulators & tooling)  
-- Firebase project with **Authentication** & **Firestore** enabled  
+- Flutter SDK ≥ 3.22.0
+- Android Studio or Xcode (for emulators & tooling)
+- Firebase project with **Authentication** & **Firestore** enabled
 
 ### Installation & Running
 
@@ -97,64 +128,66 @@ cd clarxcore_app
 # 2. Install dependencies
 flutter pub get
 
-# 3. Run on Android/iOS/Web
-flutter run            # default device
-flutter run -d chrome  # web
+# 3. Run on default device
+flutter run
 ```
 
 ---
 
 ## 📂 Project Structure
 
-```
+```plaintext
 clarxcore_app/
-├─ android/               # Android native project
-├─ ios/                   # iOS native project
+├─ android/                  # Android native code
+├─ ios/                      # iOS native code
 ├─ lib/
-│  ├─ main.dart           # Entry point & theme
-│  ├─ firebase_options.dart
-│  ├─ screens/            # UI screens & flows
+│  ├─ main.dart              # Entry & app theme
+│  ├─ firebase_options.dart  # Firebase config
+│  ├─ screens/               # UI flows
 │  │   ├─ splash_screen.dart
 │  │   ├─ auth_choice_screen.dart
 │  │   ├─ register_flow.dart
 │  │   ├─ login_page.dart
-│  │   ├─ home_screen.dart
-│  │   └─ legal/           # Terms & Privacy
-│  ├─ services/           # Firestore & business logic
-│  └─ widgets/            # Reusable components
+│  │   └─ home_screen.dart
+│  ├─ services/              # Business logic & Firestore
+│  └─ widgets/               # Reusable UI components
 ├─ assets/
 │  ├─ icons/
 │  ├─ images/
-│  └─ legal/              # Markdown docs
+│  └─ legal/                 # Markdown docs
 ├─ docs/
 │  └─ screenshots/
-├─ test/                  # Unit & widget tests
-└─ pubspec.yaml           # Dependencies & assets
+├─ test/                     # Unit & widget tests
+└─ pubspec.yaml              # Dependencies & config
 ```
 
 ---
 
 ## ⚙️ Configuration
 
-- **Theme Colors**: Defined in `lib/main.dart`  
-- **Language & Timezone**: Config in `lib/screens/step2_profile_contact.dart`  
-- **Notification Settings**: Stored per-user in Firestore  
-- **Device Integrations**: Under `step5_device_integrations.dart`  
+- **Theme colors:** `lib/main.dart`
+- **Localization:** Intl settings in `lib/screens/step2_profile_contact.dart`
+- **Notifications:** Managed per-user in Firestore
+- **Integrations:** See `lib/screens/step5_device_integrations.dart`
 
 ---
 
 ## 🌿 Branching & Versioning
 
-- **main**: Always deployable, protected  
-- **feature/**: New features (e.g. `feature/login-ui`)  
-- **hotfix/**: Critical fixes on `main`  
-- **release/**: Release candidates  
+- **main:** protected, production-ready
+- **feature/**: for new features (e.g., `feature/login-ui`)
+- **hotfix/**: for urgent fixes
+- **release/**: for release candidates
 
-Versioning follows [SemVer](https://semver.org/):
+Follows [Semantic Versioning](https://semver.org/):
 
 ```yaml
-version: 1.1.0+1  # <major>.<minor>.<patch>+<build>
-git tag -a v1.1.0 -m "Release 1.1.0 – added new UI components"
+version: 1.1.0+1
+```
+
+**Tagging:**
+```bash
+git tag -a v1.1.0 -m "Release 1.1.0 – added features"
 git push origin v1.1.0
 ```
 
@@ -162,34 +195,45 @@ git push origin v1.1.0
 
 ## 🤝 Contributing
 
-We welcome your help! Please:
+- **Fork** the repo
+- **Branch:**
+  ```bash
+  git checkout -b feature/your-feature
+  ```
+- **Commit:**
+  ```bash
+  git commit -m "feat: add awesome feature"
+  ```
+- **Push & PR** against `main`
 
-1. Fork the repo  
-2. Create a branch: `git checkout -b feature/your-feature`  
-3. Commit changes: `git commit -m "feat: add awesome feature"`  
-4. Push: `git push origin feature/your-feature`  
-5. Open a PR against `main`  
+**Templates:**
+- Bug: `.github/ISSUE_TEMPLATE/bug_report.md`
+- Feature: `.github/ISSUE_TEMPLATE/feature_request.md`
+- PR: `.github/PULL_REQUEST_TEMPLATE.md`
 
-See `CONTRIBUTING.md` for details.
+For details, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ---
 
 ## 📜 License
 
-This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for details.
+MIT License © 2025 ClarxCompany. See [LICENSE](LICENSE) for details.
 
 ---
 
 ## 📬 Contact
 
-- **GitHub**: [clarxcompany/clarxcore_app](https://github.com/clarxcompany/clarxcore_app)  
-- **Email** : clarxcompany@gmail.com  
+- **GitHub:** [clarxcompany/clarxcore_app](https://github.com/clarxcompany/clarxcore_app)
+- **Email:** clarxcompany@gmail.com
 
 ---
 
 ## 💾 Next Steps
 
-1. Save this file (`README.md`)  
-2. `git add README.md`  
-3. `git commit -m "chore: modernize README"`  
-4. `git push`  
+Save as `README.md` and:
+
+```bash
+git add README.md
+git commit -m "docs: modernize README"
+git push
+```
