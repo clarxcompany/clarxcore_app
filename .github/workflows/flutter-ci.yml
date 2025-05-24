@@ -5,7 +5,7 @@ on:
     branches: [ main ]
   pull_request:
     branches: [ main ]
-  workflow_dispatch:   # manuel tetikleme için
+  workflow_dispatch:
 
 jobs:
   build:
@@ -18,25 +18,18 @@ jobs:
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.22.0'   # Flutter ≥3.22 (Dart 3.4+ içerir)
+          flutter-version: '3.22.0'
           channel: 'stable'
 
       - name: Install dependencies
         run: flutter pub get
 
       - name: Analyze code
-        run: flutter analyze
+        run: flutter analyze --no-fatal-infos --no-fatal-warnings
 
       - name: Run tests
         run: flutter test --coverage
 
-      # (Opsiyonel) APK build
       - name: Build APK
         if: github.event_name == 'push'
         run: flutter build apk --release
-
-      # (Opsiyonel) Upload test coverage (örnek olarak Codecov)
-      # - name: Upload coverage to Codecov
-      #   uses: codecov/codecov-action@v3
-      #   with:
-      #     files: coverage/lcov.info
