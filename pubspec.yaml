@@ -4,7 +4,7 @@ publish_to: 'none'
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.19.0 <3.0.0"    # Match the Dart 2.19.x SDK bundled with Flutter 3.7.7 :contentReference[oaicite:0]{index=0}
+  sdk: ">=3.4.0 <4.0.0"    # Dart 3.4+ to satisfy share_plus ^11.0.0
 
 dependencies:
   flutter:
@@ -22,14 +22,14 @@ dependencies:
   google_fonts: ^6.1.0
   intl: ^0.19.0
   cupertino_icons: ^1.0.8
-  share_plus: ^11.0.0
+  share_plus: ^11.0.0     # Dart 3.4+ compatible
   font_awesome_flutter: ^10.4.0
   flutter_markdown: ^0.6.10
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.3      # Downgraded to 2.0.3 for Dart 2.19 compatibility :contentReference[oaicite:1]{index=1}
+  flutter_lints: ^2.0.3    # OK with Dart ≥2.19 and also works under Dart 3.x
 
 dependency_overrides:
   win32: 3.0.1
