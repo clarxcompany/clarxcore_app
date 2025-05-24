@@ -1,5 +1,6 @@
 # ClarxCore App
-
+[![Sponsor](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ff69b4)](https://github.com/sponsors/clarxcompany)
+[![Open Collective](https://img.shields.io/badge/Sponsor-Open%20Collective-51cf66)](https://opencollective.com/clarxcore-app)
 [![Flutter](https://img.shields.io/badge/Flutter-3.22.0-blue.svg)](https://flutter.dev)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Build Status](https://github.com/clarxcompany/clarxcore_app/actions/workflows/flutter-ci.yml/badge.svg)](https://github.com/clarxcompany/clarxcore_app/actions/workflows/flutter-ci.yml)
