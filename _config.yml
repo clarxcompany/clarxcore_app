@@ -1,0 +1,29 @@
+title: ClarxCore Documentation
+description: "ClarxCore – Real Missions. Real Progress"
+url: "https://clarxcompany.github.io"
+baseurl: "/clarxcore_app"
+theme: "just-the-docs"
+
+just_the_docs:
+  logo:
+    path: assets/app_logo.png
+    width: 50px
+  nav:
+    - title: Overview
+      url: /
+    - title: Quick Start
+      url: /getting-started/
+    - title: Architecture
+      url: /architecture/
+    - title: Contributing
+      url: /contributing/
+
+collections:
+  docs:
+    output: true
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+exclude: ["node_modules", "vendor"]
