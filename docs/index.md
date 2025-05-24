@@ -1,4 +1,8 @@
-﻿# Welcome to ClarxCore Documentation
+﻿---
+title: ClarxCore Documentation
+---
+
+# Welcome to ClarxCore Documentation
 
 Bu dökümantasyon:
 - ClarxCore mimarisi genel bakış
